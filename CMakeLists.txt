@@ -11,7 +11,6 @@ set(CMAKE_CXX_FLAGS_RELEASE "-O3 -DNDEBUG -DOS_MAC")
 SET(CMAKE_CXX_FLAGS_DEBUG  "${CMAKE_CXX_FLAGS} -g -Wall")
 
 include_directories("inc")
-include_directories("/opt/homebrew/opt/libomp/include")
 include_directories("ndtree")
 
 file(GLOB SOURCES "src/Solvers/*.cpp" "src/Utils/*.cpp" "src/CH/*.cpp")
